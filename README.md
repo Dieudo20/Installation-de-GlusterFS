@@ -12,7 +12,7 @@
 
     lsblk
 
-# Supposons que nous j'ai décidé d’utiliser la partition /dev/nvme1n1 comme volume GlusterFS. il est necessaire de Formater cette partition en ext4 et la monter:
+# Supposons que j'ai décidé d’utiliser la partition /dev/nvme1n1 comme volume GlusterFS. il est necessaire de Formater cette partition en ext4 et la monter:
 
     mkfs.ext4 /dev/nvme1n1
     mkdir /mnt/brick1
